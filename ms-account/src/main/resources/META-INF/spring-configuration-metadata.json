@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "spring_cloud.cassandra.contact.point",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring_cloud.cassandra.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring_cloud.cassandra.keyspace.name",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring_cloud.cassandra.username",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring_cloud.cassandra.password",
+      "type": "java.lang.String"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+com/bakhishli/ms/ticket/MsTicketApplication.java
+ com.bakhishli.ms.ticket.MsTicketApplication
+com/bakhishli/ms/ticket/domain/elasticsearch/TicketElasticsearch.java
+ com.bakhishli.ms.ticket.domain.elasticsearch.TicketElasticsearch
+ com.bakhishli.ms.ticket.domain.elasticsearch.TicketElasticsearch$TicketElasticsearchBuilder
+com/bakhishli/ms/ticket/config/CommonConfig.java
+ com.bakhishli.ms.ticket.config.CommonConfig
+com/bakhishli/ms/ticket/web/rest/TicketController.java
+ com.bakhishli.ms.ticket.web.rest.TicketController
+com/bakhishli/ms/ticket/domain/Ticket.java
+ com.bakhishli.ms.ticket.domain.Ticket
+com/bakhishli/ms/ticket/domain/enums/PriorityType.java
+ com.bakhishli.ms.ticket.domain.enums.PriorityType
+com/bakhishli/ms/ticket/service/TicketService.java
+ com.bakhishli.ms.ticket.service.TicketService
+com/bakhishli/ms/ticket/service/dto/TicketResponseDto.java
+ com.bakhishli.ms.ticket.service.dto.TicketResponseDto
+com/bakhishli/ms/ticket/repository/elasticsearch/TicketElasticsearchRepository.java
+ com.bakhishli.ms.ticket.repository.elasticsearch.TicketElasticsearchRepository
+com/bakhishli/ms/ticket/domain/enums/TicketStatus.java
+ com.bakhishli.ms.ticket.domain.enums.TicketStatus
+com/bakhishli/ms/ticket/service/adapter/TicketAdapter.java
+ com.bakhishli.ms.ticket.service.adapter.TicketAdapter
+com/bakhishli/ms/ticket/domain/AbstractAuditingEntity.java
+ com.bakhishli.ms.ticket.domain.AbstractAuditingEntity
+com/bakhishli/ms/ticket/service/dto/TicketRequestDto.java
+ com.bakhishli.ms.ticket.service.dto.TicketRequestDto
+com/bakhishli/ms/ticket/service/impl/TicketServiceImpl.java
+ com.bakhishli.ms.ticket.service.impl.TicketServiceImpl
+com/bakhishli/ms/ticket/repository/TicketRepository.java
+ com.bakhishli.ms.ticket.repository.TicketRepository

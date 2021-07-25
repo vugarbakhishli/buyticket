@@ -1,0 +1,31 @@
+version: '3.1'
+services:
+  cassandra:
+    image: cassandra
+    container_name: springcloud_cassandra
+    ports:
+      - '9042:9042'
+  mysql:
+    image: mysql:5.7
+    container_name: springcloud_mysql
+    hostname: mysql
+    restart: always
+    volumes:
+      - springcloud_mysql_db_data:/var/lib/db_data/springcloud/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - 3306:3306
+
+  elasticsearch:
+    image: elasticsearch:6.8.17
+    ports:
+      - 9200:9200
+      - 9300:9300
+    container_name: springcloud_elasticsearch
+    hostname: elasticsearch
+    environment:
+      discovery.type: single-node
+
+volumes:
+  springcloud_mysql_db_data:

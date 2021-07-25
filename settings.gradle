@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cloud-project'
+include 'common'
+include 'ms-account' //8080
+include 'ms-ticket'
+
